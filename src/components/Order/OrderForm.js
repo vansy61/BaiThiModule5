@@ -56,8 +56,8 @@ function OrderForm({formik, products}) {
       </div>
 
       <div className="text-end">
-        <Link to={"/"} className="btn btn-secondary">Back</Link>
-        <button type="submit" className="btn btn-success mx-2 px-4">Submit</button>
+        <Link to={"/"} className="btn btn-secondary">Quay lại</Link>
+        <button type="submit" className="btn btn-success mx-2 px-4">Tạo mới</button>
 
       </div>
     </form>
