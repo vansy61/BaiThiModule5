@@ -1,0 +1,46 @@
+{
+  "orders": [
+    {
+      "id": "1287",
+      "quantity": 5,
+      "date": "2024-07-28",
+      "productId": "1",
+      "total": 500000
+    },
+    {
+      "id": "d74e",
+      "quantity": 5,
+      "date": "2024-07-30",
+      "productId": "2",
+      "total": 40000
+    },
+    {
+      "id": "68f4",
+      "quantity": 6,
+      "date": "2024-07-17",
+      "productId": "1",
+      "total": 600000
+    },
+    {
+      "id": "38e1",
+      "quantity": 500,
+      "date": "2024-07-19",
+      "productId": "2",
+      "total": 4000000
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "San pham 1",
+      "price": 100000,
+      "category": "Phan loai 1"
+    },
+    {
+      "id": "2",
+      "name": "San pham 2",
+      "price": 8000,
+      "category": "Phan loai 1"
+    }
+  ]
+}
