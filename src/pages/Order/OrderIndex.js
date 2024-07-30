@@ -31,11 +31,10 @@ export default function OrderIndex() {
   }) : [];
   if(products && topProducts && topProducts !== "") {
     filteredOrders = filteredOrders.sort((a, b) => b.total - a.total).slice(0, parseInt(topProducts));
+  }else {
+    filteredOrders = filteredOrders.sort((a, b) => a.product.price - b.product.price);
   }
 
-  console.log(filteredOrders)
-
-  const sortedOrders = filteredOrders.sort((a, b) => a.product.price - b.product.price)
 
   return (
     <div>
@@ -93,7 +92,7 @@ export default function OrderIndex() {
           </div>
         </div>
         {
-          orders === null ? <Loading/> : <OrderTable orders={sortedOrders}/>
+          orders === null ? <Loading/> : <OrderTable orders={filteredOrders}/>
         }
       </div>
     </div>

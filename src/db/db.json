@@ -1,20 +1,6 @@
 {
   "orders": [
     {
-      "id": "1287",
-      "quantity": 5,
-      "date": "2024-07-28",
-      "productId": "1",
-      "total": 500000
-    },
-    {
-      "id": "d74e",
-      "quantity": 5,
-      "date": "2024-07-30",
-      "productId": "2",
-      "total": 40000
-    },
-    {
       "id": "68f4",
       "quantity": 6,
       "date": "2024-07-17",
@@ -27,6 +13,20 @@
       "date": "2024-07-19",
       "productId": "2",
       "total": 4000000
+    },
+    {
+      "id": "9932",
+      "quantity": 1,
+      "date": "2024-07-17",
+      "productId": "2",
+      "total": 8000
+    },
+    {
+      "id": "cdd7",
+      "quantity": 7,
+      "date": "2024-07-21",
+      "productId": "1",
+      "total": 700000
     }
   ],
   "products": [

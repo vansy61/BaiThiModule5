@@ -36,7 +36,6 @@ export default function OrderNew() {
       setProducts(null);
       let product = await ProductService.findProductById(values.productId);
       values.total = product.price * values.quantity;
-      console.log(values);
       await OrderService.createOrder(values);
       navigate('/');
     },
